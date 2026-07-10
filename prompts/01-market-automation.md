@@ -4,6 +4,8 @@
 
 > 使用方法：展开条目，复制代码块，根据你的产品、受众、平台和目标替换占位内容。
 
+<a id="us-market-daily-report"></a>
+
 <details>
 <summary><strong>美股收盘日报自动化</strong></summary>
 

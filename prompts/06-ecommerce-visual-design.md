@@ -4,6 +4,8 @@
 
 > 使用方法：展开条目，复制代码块，根据你的产品、受众、平台和目标替换占位内容。
 
+<a id="tmall-visual-gemini"></a>
+
 <details>
 <summary><strong>天猫主图详情页设计（Gemini）</strong></summary>
 
@@ -41,6 +43,8 @@
 ````
 
 </details>
+
+<a id="tmall-visual-chatgpt"></a>
 
 <details>
 <summary><strong>天猫主图详情页设计（ChatGPT）</strong></summary>

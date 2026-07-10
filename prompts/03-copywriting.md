@@ -4,6 +4,8 @@
 
 > 使用方法：展开条目，复制代码块，根据你的产品、受众、平台和目标替换占位内容。
 
+<a id="douyin-copywriting-role"></a>
+
 <details>
 <summary><strong>抖音文案角色设定</strong></summary>
 
@@ -33,6 +35,8 @@
 ````
 
 </details>
+
+<a id="thai-tiktok-sunglasses-copy"></a>
 
 <details>
 <summary><strong>泰国 TikTok 墨镜文案</strong></summary>
@@ -93,6 +97,8 @@ PC材质的镜腿更是结实耐造，
 
 </details>
 
+<a id="universal-prompt-template"></a>
+
 <details>
 <summary><strong>通用高质量 Prompt 母模板</strong></summary>
 
@@ -114,6 +120,8 @@ Prompt：
 
 </details>
 
+<a id="viral-headlines"></a>
+
 <details>
 <summary><strong>爆款标题</strong></summary>
 
@@ -129,6 +137,8 @@ Prompt：
 
 </details>
 
+<a id="xiaohongshu-post"></a>
+
 <details>
 <summary><strong>小红书种草笔记</strong></summary>
 
@@ -139,6 +149,8 @@ Prompt：
 ````
 
 </details>
+
+<a id="social-copy"></a>
 
 <details>
 <summary><strong>朋友圈 / 社群短文案</strong></summary>
@@ -158,6 +170,8 @@ Prompt：
 
 </details>
 
+<a id="ecommerce-detail-copy"></a>
+
 <details>
 <summary><strong>电商详情页文案</strong></summary>
 
@@ -174,6 +188,8 @@ Prompt：
 ````
 
 </details>
+
+<a id="feed-ad-ab"></a>
 
 <details>
 <summary><strong>信息流广告 A/B 变体</strong></summary>
@@ -193,6 +209,8 @@ Prompt：
 ````
 
 </details>
+
+<a id="short-video-15-30-60"></a>
 
 <details>
 <summary><strong>15 / 30 / 60 秒短视频脚本</strong></summary>
@@ -215,6 +233,8 @@ Prompt：
 
 </details>
 
+<a id="brand-slogan"></a>
+
 <details>
 <summary><strong>品牌 Slogan / 一句话定位</strong></summary>
 
@@ -225,6 +245,8 @@ Prompt：
 ````
 
 </details>
+
+<a id="prompt-iteration"></a>
 
 <details>
 <summary><strong>二次迭代 Prompt</strong></summary>
@@ -287,6 +309,8 @@ Meta-Instruction (反向确认)
 ````
 
 </details>
+
+<a id="prompt-generator"></a>
 
 <details>
 <summary><strong>按需求生成 Prompt</strong></summary>

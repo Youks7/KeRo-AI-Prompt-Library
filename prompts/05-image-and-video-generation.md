@@ -4,6 +4,8 @@
 
 > 使用方法：展开条目，复制代码块，根据你的产品、受众、平台和目标替换占位内容。
 
+<a id="image-prompt-reverse"></a>
+
 <details>
 <summary><strong>图片反向解析 Prompt</strong></summary>
 
@@ -13,6 +15,8 @@
 ````
 
 </details>
+
+<a id="image-to-video"></a>
 
 <details>
 <summary><strong>图生视频 Prompt 助手</strong></summary>
@@ -39,6 +43,8 @@ Prompt生成方法:
 ````
 
 </details>
+
+<a id="first-last-frame"></a>
 
 <details>
 <summary><strong>视频首尾帧图片 Prompt 助手</strong></summary>
@@ -76,6 +82,8 @@ last frame：A towering Bumblebee Autobot in bipedal form dominates the neon-dre
 
 </details>
 
+<a id="seedance-scene-config"></a>
+
 <details>
 <summary><strong>Seedance 2.0 场景配置示例</strong></summary>
 
@@ -95,6 +103,8 @@ last frame：A towering Bumblebee Autobot in bipedal form dominates the neon-dre
 ````
 
 </details>
+
+<a id="cinematic-image-prompt"></a>
 
 <details>
 <summary><strong>电影感绘图 Prompt 改写</strong></summary>
@@ -142,6 +152,8 @@ Output Format
 ````
 
 </details>
+
+<a id="nanobanana-5x5-storyboard"></a>
 
 <details>
 <summary><strong>NanoBananaPro 5×5 分镜</strong></summary>
@@ -228,6 +240,8 @@ Output Format
 
 </details>
 
+<a id="product-ad-4x4-storyboard"></a>
+
 <details>
 <summary><strong>4×4 产品广告分镜</strong></summary>
 
@@ -238,6 +252,8 @@ Output Format
 ````
 
 </details>
+
+<a id="visual-style-analysis"></a>
 
 <details>
 <summary><strong>图像风格要素分析与原创迁移</strong></summary>
@@ -251,6 +267,8 @@ Output Format
 ````
 
 </details>
+
+<a id="25-grid-storyboard"></a>
 
 <details>
 <summary><strong>25 宫格叙事分镜</strong></summary>

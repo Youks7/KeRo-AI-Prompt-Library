@@ -4,6 +4,8 @@
 
 > 使用方法：展开条目，复制代码块，根据你的产品、受众、平台和目标替换占位内容。
 
+<a id="two-panel-example"></a>
+
 <details>
 <summary><strong>两格条漫需求示例</strong></summary>
 
@@ -12,6 +14,8 @@
 ````
 
 </details>
+
+<a id="two-panel-comic-director"></a>
 
 <details>
 <summary><strong>日式儿童搞怪两格条漫导演</strong></summary>
@@ -93,6 +97,8 @@ B) 《气泡文字断行稿》
 ````
 
 </details>
+
+<a id="character-sheet"></a>
 
 <details>
 <summary><strong>人像角色设定卡</strong></summary>

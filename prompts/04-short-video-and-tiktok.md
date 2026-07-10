@@ -4,6 +4,8 @@
 
 > 使用方法：展开条目，复制代码块，根据你的产品、受众、平台和目标替换占位内容。
 
+<a id="short-video-script"></a>
+
 <details>
 <summary><strong>短视频脚本创作</strong></summary>
 
@@ -25,6 +27,8 @@
 ````
 
 </details>
+
+<a id="short-video-director"></a>
 
 <details>
 <summary><strong>资深短视频编导</strong></summary>
@@ -95,6 +99,8 @@ Workflow:
 ````
 
 </details>
+
+<a id="qianchuan-video-writer"></a>
 
 <details>
 <summary><strong>千川高转化短视频编剧</strong></summary>
@@ -168,6 +174,8 @@ Input:
 
 </details>
 
+<a id="video-to-chinese-notes"></a>
+
 <details>
 <summary><strong>视频转中文知识笔记</strong></summary>
 
@@ -222,6 +230,8 @@ Video Link
 
 </details>
 
+<a id="tiktok-copy-review"></a>
+
 <details>
 <summary><strong>TikTok 运营文案审核</strong></summary>
 
@@ -234,6 +244,8 @@ Video Link
 ````
 
 </details>
+
+<a id="tiktok-copy-review-iteration"></a>
 
 <details>
 <summary><strong>TikTok 文案审核二次迭代</strong></summary>
@@ -256,6 +268,8 @@ Interaction (交互):
 ````
 
 </details>
+
+<a id="thai-tiktok-pain-points"></a>
 
 <details>
 <summary><strong>泰国 TikTok 痛点深挖</strong></summary>
@@ -322,6 +336,8 @@ Output Format (输出格式)
 
 </details>
 
+<a id="spoken-copy-extraction"></a>
+
 <details>
 <summary><strong>视频口播文案提取</strong></summary>
 
@@ -362,6 +378,8 @@ d) 输出时应确保文案的语序与视频口播顺序完全一致。
 ````
 
 </details>
+
+<a id="ai-animation-writer"></a>
 
 <details>
 <summary><strong>AI 动漫短剧编剧</strong></summary>

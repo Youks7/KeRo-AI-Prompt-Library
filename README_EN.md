@@ -22,7 +22,7 @@
 
 KeRo AI Prompt Library is a practical collection of structured AI workflows maintained and tested by Kero. Instead of isolated one-line prompts, each template combines a role, task, inputs, constraints, output format, and iteration method.
 
-The current release contains **7 categories, 40+ practical prompts, and 8 advanced prompt packs** for e-commerce, short-form video, TikTok, Chinese–Thai localization, AI image/video creation, and market-report automation.
+The current release contains **7 categories, 41 practical prompts, and 8 advanced prompt packs** for e-commerce, short-form video, TikTok, Chinese–Thai localization, AI image/video creation, and market-report automation.
 
 > Most prompt bodies are written in Simplified Chinese, with selected English and Thai content. This English README provides a clear project map for international readers.
 
