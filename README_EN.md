@@ -22,7 +22,7 @@
 
 KeRo AI Prompt Library is a practical collection of structured AI workflows maintained and tested by Kero. Instead of isolated one-line prompts, each template combines a role, task, inputs, constraints, output format, and iteration method.
 
-The current release contains **7 categories, 41 practical prompts, and 8 advanced prompt packs** for e-commerce, short-form video, TikTok, Chinese–Thai localization, AI image/video creation, and market-report automation.
+The current release contains **9 categories, 80 practical prompts, and 11 advanced prompt packs** for e-commerce, short-form video, TikTok, Chinese–Thai localization, AI image/video creation, and market-report automation.
 
 > Most prompt bodies are written in Simplified Chinese, with selected English and Thai content. This English README provides a clear project map for international readers.
 
@@ -37,6 +37,8 @@ The current release contains **7 categories, 41 practical prompts, and 8 advance
 | [AI image and video](prompts/05-image-and-video-generation.md) | Image-to-video, keyframes, cinematic prompts, shot grids |
 | [E-commerce visual design](prompts/06-ecommerce-visual-design.md) | Tmall key visuals, product-detail pages, layout direction |
 | [Comics, characters, and portraits](prompts/07-storyboard-and-character.md) | Two-panel comics, character sheets, visual consistency |
+| [Banana portraits and restoration](prompts/08-banana-portrait-and-restoration.md) | Adult portrait photography, lens remixes, scene blending, photo restoration |
+| [Banana e-commerce and posters](prompts/09-banana-ecommerce-and-poster.md) | Product-detail pages, poster systems, stickers, and social visuals |
 
 [Open the complete prompt index →](prompts/README.md)
 

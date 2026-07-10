@@ -22,7 +22,7 @@
 
 這是 Kero 持續整理與實測的 AI Prompt 工作流庫。每個模板都把角色、任務、輸入、限制、輸出格式與迭代方式組合起來，方便直接複製、替換變數並繼續優化。
 
-目前包含 **7 個主題分類、41 個實用 Prompt 與 8 個進階 Prompt 包**，涵蓋電商、短影片、TikTok、中泰在地化、AI 圖像與影片，以及市場日報自動化。
+目前包含 **9 個主題分類、80 個實用 Prompt 與 11 個進階 Prompt 包**，涵蓋電商、短影片、TikTok、中泰在地化、AI 圖像與影片，以及市場日報自動化。
 
 > Prompt 正文目前以簡體中文為主，部分內容包含英文與泰文；本頁提供繁體中文導覽。
 
@@ -37,6 +37,8 @@
 | [AI 生圖、影片與分鏡](prompts/05-image-and-video-generation.md) | 圖生影片、首尾幀、電影感、多宮格 |
 | [電商視覺設計](prompts/06-ecommerce-visual-design.md) | 天貓主圖、詳情頁與視覺方案 |
 | [條漫、角色與寫真](prompts/07-storyboard-and-character.md) | 兩格條漫、角色設定卡與人物一致性 |
+| [Banana 人像、寫真與修復](prompts/08-banana-portrait-and-restoration.md) | 成人人像攝影、鏡頭重構、場景融合與老照片修復 |
+| [Banana 電商、海報與社群視覺](prompts/09-banana-ecommerce-and-poster.md) | 商品詳情頁、海報系統、貼圖與社群視覺 |
 
 [查看完整 Prompt 目錄 →](prompts/README.md)
 

@@ -22,7 +22,7 @@
 
 这是 Kero 持续整理和实测的 AI Prompt 工作流库。它不是一堆互不相关的句子，而是把角色、任务、输入、约束、输出格式和迭代方法组织成可以直接复制、替换变量、继续优化的模板。
 
-当前版本从原始 SOP 文档中整理出 **7 个主题分类、41 个实用 Prompt 和 8 个进阶 Prompt 包**。
+当前版本从原始 SOP 文档中整理出 **9 个主题分类、80 个实用 Prompt 和 11 个进阶 Prompt 包**。
 
 ## 核心价值
 
@@ -48,6 +48,8 @@
 | **05 · AI 生图、视频与分镜** | [图片反向解析 Prompt](prompts/05-image-and-video-generation.md#image-prompt-reverse)<br>[图生视频 Prompt 助手](prompts/05-image-and-video-generation.md#image-to-video)<br>[视频首尾帧图片 Prompt 助手](prompts/05-image-and-video-generation.md#first-last-frame)<br>[Seedance 2.0 场景配置示例](prompts/05-image-and-video-generation.md#seedance-scene-config)<br>[电影感绘图 Prompt 改写](prompts/05-image-and-video-generation.md#cinematic-image-prompt)<br>[NanoBananaPro 5×5 分镜](prompts/05-image-and-video-generation.md#nanobanana-5x5-storyboard)<br>[4×4 产品广告分镜](prompts/05-image-and-video-generation.md#product-ad-4x4-storyboard)<br>[图像风格要素分析与原创迁移](prompts/05-image-and-video-generation.md#visual-style-analysis)<br>[25 宫格叙事分镜](prompts/05-image-and-video-generation.md#25-grid-storyboard) |
 | **06 · 电商视觉设计** | [天猫主图详情页设计（Gemini）](prompts/06-ecommerce-visual-design.md#tmall-visual-gemini)<br>[天猫主图详情页设计（ChatGPT）](prompts/06-ecommerce-visual-design.md#tmall-visual-chatgpt) |
 | **07 · 条漫、角色与写真** | [两格条漫需求示例](prompts/07-storyboard-and-character.md#two-panel-example)<br>[日式儿童搞怪两格条漫导演](prompts/07-storyboard-and-character.md#two-panel-comic-director)<br>[人像角色设定卡](prompts/07-storyboard-and-character.md#character-sheet) |
+| **08 · Banana 人像、写真与修复** | [复古女仆风成年写真](prompts/08-banana-portrait-and-restoration.md#banana-maid-portrait)<br>[圣诞兔耳造型成年写真](prompts/08-banana-portrait-and-restoration.md#banana-christmas-portrait)<br>[古风夜景人像](prompts/08-banana-portrait-and-restoration.md#banana-ancient-style-portrait)<br>[杂志拼贴近景人像](prompts/08-banana-portrait-and-restoration.md#banana-editorial-closeup)<br>[极致清晰摄影感人像](prompts/08-banana-portrait-and-restoration.md#banana-crisp-photo-portrait)<br>[冷感街头监控拼贴](prompts/08-banana-portrait-and-restoration.md#banana-cold-street-surveillance)<br>[鱼眼镜头多姿势重构](prompts/08-banana-portrait-and-restoration.md#banana-fisheye-multipose)<br>[手持自拍人像](prompts/08-banana-portrait-and-restoration.md#banana-handheld-selfie)<br>[老照片高保真修复（JSON）](prompts/08-banana-portrait-and-restoration.md#banana-photo-restoration-json)<br>[老照片高保真修复（中文版）](prompts/08-banana-portrait-and-restoration.md#banana-photo-restoration-zh)<br>[韩系氛围感妆容人像](prompts/08-banana-portrait-and-restoration.md#banana-korean-makeup-portrait)<br>[清冷临水氛围人像](prompts/08-banana-portrait-and-restoration.md#banana-waterside-portrait)<br>[原创卡通毛绒玩偶](prompts/08-banana-portrait-and-restoration.md#banana-original-plush-toy)<br>[居家近景人像](prompts/08-banana-portrait-and-restoration.md#banana-home-closeup)<br>[街头回眸人像（浅色造型）](prompts/08-banana-portrait-and-restoration.md#banana-street-lookback-light)<br>[街头回眸人像（黑白造型）](prompts/08-banana-portrait-and-restoration.md#banana-street-lookback-black-white)<br>[双人玻璃岗亭时尚写真](prompts/08-banana-portrait-and-restoration.md#banana-glass-booth-editorial)<br>[35mm 胶片卧室镜面自拍](prompts/08-banana-portrait-and-restoration.md#banana-35mm-bedroom-selfie)<br>[场景与人物真实融合](prompts/08-banana-portrait-and-restoration.md#banana-scene-person-blending) |
+| **09 · Banana 电商、海报与社交视觉** | [10 屏产品电商 KV 系统](prompts/09-banana-ecommerce-and-poster.md#banana-ecommerce-10-screen-kv)<br>[工业级电商详情页启动配置](prompts/09-banana-ecommerce-and-poster.md#banana-ecommerce-launch-config)<br>[电商详情页第一阶段分析](prompts/09-banana-ecommerce-and-poster.md#banana-ecommerce-stage-one)<br>[海报 01：品牌 LOGO 生成](prompts/09-banana-ecommerce-and-poster.md#banana-poster-logo)<br>[海报 02：产品场景展示](prompts/09-banana-ecommerce-and-poster.md#banana-poster-lifestyle)<br>[海报 03：多场景拼贴](prompts/09-banana-ecommerce-and-poster.md#banana-poster-collage)<br>[海报 04：面料光泽细节](prompts/09-banana-ecommerce-and-poster.md#banana-poster-fabric-sheen)<br>[海报 05：吊带与肩颈细节](prompts/09-banana-ecommerce-and-poster.md#banana-poster-strap-collarbone)<br>[海报 06：V 领剪裁细节](prompts/09-banana-ecommerce-and-poster.md#banana-poster-v-neckline)<br>[海报 07：裙摆垂坠细节](prompts/09-banana-ecommerce-and-poster.md#banana-poster-hemline-drape)<br>[海报 08：产品配色与型号](prompts/09-banana-ecommerce-and-poster.md#banana-poster-color-model)<br>[海报 09：产品尺码与参数](prompts/09-banana-ecommerce-and-poster.md#banana-poster-size-spec)<br>[海报 10：质保、售后与说明](prompts/09-banana-ecommerce-and-poster.md#banana-poster-trust-page)<br>[偏光墨镜 10 屏中文海报](prompts/09-banana-ecommerce-and-poster.md#banana-polarized-sunglasses-zh)<br>[墨镜英泰双语海报系统](prompts/09-banana-ecommerce-and-poster.md#banana-sunglasses-en-th)<br>[商业海报 Prompt 生成器](prompts/09-banana-ecommerce-and-poster.md#banana-commercial-poster-generator)<br>[职场主题表情贴纸](prompts/09-banana-ecommerce-and-poster.md#banana-workplace-stickers)<br>[生日涂鸦纪念图（初始版）](prompts/09-banana-ecommerce-and-poster.md#banana-birthday-doodle-original)<br>[生日涂鸦纪念图（迭代 1）](prompts/09-banana-ecommerce-and-poster.md#banana-birthday-doodle-v1)<br>[生日涂鸦纪念图（迭代 2）](prompts/09-banana-ecommerce-and-poster.md#banana-birthday-doodle-v2) |
 
 ### 进阶 Prompt 包
 
@@ -59,6 +61,9 @@
 - [Seedance 2.0 平台版 v4.1](prompt-packs/seedance-platform-v4.1.md)
 - [双语 MJ 摄影 Prompt 导演](prompt-packs/bilingual-mj-photo-director.md)
 - [AI 杂志摄影 Prompt 导演](prompt-packs/ai-magazine-photo-director.md)
+- [工业级 AIGC 电商详情页生成系统 V3.0](prompt-packs/industrial-aigc-ecommerce-v3.md)
+- [工业级 AIGC 电商详情页 Prompt Gem V4.0](prompt-packs/industrial-aigc-ecommerce-v4.md)
+- [SKU 详情页导演 Skill Lite V1.0（历史版）](prompt-packs/sku-detail-page-director-lite-v1.md)
 
 [打开独立 Prompt 目录 →](prompts/README.md)
 
