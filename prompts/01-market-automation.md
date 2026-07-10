@@ -61,6 +61,22 @@ Skill：
 具体展示内容如下：
 ````
 
+
+
+<!-- images:us-market-daily-report -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/gemini/us-market-daily-report/1dceddd9b6.png" alt="美股收盘日报自动化 示例图 1" width="260">
+  <img src="../assets/images/gemini/us-market-daily-report/2d28ef232e.png" alt="美股收盘日报自动化 示例图 2" width="260">
+  <img src="../assets/images/gemini/us-market-daily-report/3c11c002e3.png" alt="美股收盘日报自动化 示例图 3" width="260">
+  <img src="../assets/images/gemini/us-market-daily-report/80c986ab1c.png" alt="美股收盘日报自动化 示例图 4" width="260">
+  <img src="../assets/images/gemini/us-market-daily-report/8410998b49.png" alt="美股收盘日报自动化 示例图 5" width="260">
+  <img src="../assets/images/gemini/us-market-daily-report/d00a92e856.png" alt="美股收盘日报自动化 示例图 6" width="260">
+  <img src="../assets/images/gemini/us-market-daily-report/fe764a9d1b.png" alt="美股收盘日报自动化 示例图 7" width="260">
+</p>
+
 </details>
 
 ---

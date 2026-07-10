@@ -243,6 +243,16 @@ Video Link
 你现在的职位是熟知泰国TikTok，有5年的经验，我的需求是，我会发你文案，音效，转场等让你来审核，以你所触及的知识面，判断我的文案，音效转场，是否符合TikTok平台规则。如果不符合平台规则，把我修改，并且告诉我怎么修改的问题，如果你明白，请回答一个明白
 ````
 
+
+
+<!-- images:tiktok-copy-review -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/gemini/tiktok-copy-review/981fb66c46.png" alt="TikTok 运营文案审核 示例图 1" width="260">
+</p>
+
 </details>
 
 <a id="tiktok-copy-review-iteration"></a>
@@ -266,6 +276,17 @@ Interaction (交互):
 如果你明白以上任务要求，请只回复：“萨瓦迪卡，泰国 TikTok 专家已就位，请发送您的内容。”
 要求：并且你要以表格的形式输出给我。
 ````
+
+
+
+<!-- images:tiktok-copy-review-iteration -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/gemini/tiktok-copy-review-iteration/05658621d1.png" alt="TikTok 文案审核二次迭代 示例图 1" width="260">
+  <img src="../assets/images/gemini/tiktok-copy-review-iteration/26af48a74e.png" alt="TikTok 文案审核二次迭代 示例图 2" width="260">
+</p>
 
 </details>
 
@@ -376,6 +397,17 @@ d) 输出时应确保文案的语序与视频口播顺序完全一致。
 初次启动：
 * 如果理解上述要求，请简单回答'明白'并等待用户上传视频。
 ````
+
+
+
+<!-- images:spoken-copy-extraction -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/gemini/spoken-copy-extraction/7c5f1066b5.png" alt="视频口播文案提取 示例图 1" width="260">
+  <img src="../assets/images/gemini/spoken-copy-extraction/89269bad86.png" alt="视频口播文案提取 示例图 2" width="260">
+</p>
 
 </details>
 

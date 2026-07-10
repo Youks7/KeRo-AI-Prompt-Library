@@ -14,6 +14,16 @@
 请详细描述这张图片的风格、构图、光影和内容，并为我写一段用于 AI 绘画的提示词。
 ````
 
+
+
+<!-- images:image-prompt-reverse -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/gemini/image-prompt-reverse/4661c30a26.png" alt="图片反向解析 Prompt 示例图 1" width="260">
+</p>
+
 </details>
 
 <a id="image-to-video"></a>
@@ -41,6 +51,16 @@ Prompt生成方法:
 注意，提示词的重点放在运动过程和镜头语言的描述，并简化主体特征描述。
 最后提供给我的提示词为一整段话的描述，不要有任何解释性文字和符号。
 ````
+
+
+
+<!-- images:image-to-video -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/gemini/image-to-video/5e5e8ac72a.png" alt="图生视频 Prompt 助手 示例图 1" width="260">
+</p>
 
 </details>
 
@@ -101,6 +121,16 @@ last frame：A towering Bumblebee Autobot in bipedal form dominates the neon-dre
 
 无真人脸提示风险：                                           This：
 ````
+
+
+
+<!-- images:seedance-scene-config -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/gemini/seedance-scene-config/b25cd030df.png" alt="Seedance 2.0 场景配置示例 示例图 1" width="260">
+</p>
 
 </details>
 

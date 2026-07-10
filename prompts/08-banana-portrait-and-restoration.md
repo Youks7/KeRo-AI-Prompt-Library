@@ -33,6 +33,18 @@
 3 质感表现：丝袜细腻反光、蕾丝与布料褶皱清晰、沙发布纹可见
 ````
 
+
+
+<!-- images:banana-maid-portrait -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-maid-portrait/6872e477b3.jpg" alt="复古女仆风成年写真 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-maid-portrait/8c3fee546a.jpg" alt="复古女仆风成年写真 示例图 2" width="260">
+  <img src="../assets/images/banana/banana-maid-portrait/cbaed4c502.png" alt="复古女仆风成年写真 示例图 3" width="260">
+</p>
+
 </details>
 
 <a id="banana-christmas-portrait"></a>
@@ -156,6 +168,16 @@
 1 妆容变化：在参考风格基础上增加局部夸张处理，例如扩大腮红范围、强化唇部晕染、增加雀斑或高光点。
 ````
 
+
+
+<!-- images:banana-editorial-closeup -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-editorial-closeup/ab93e2018e.jpg" alt="杂志拼贴近景人像 示例图 1" width="260">
+</p>
+
 </details>
 
 <a id="banana-crisp-photo-portrait"></a>
@@ -199,6 +221,17 @@
 4 整体影调：低对比、柔雾感、层次细腻，暗部不死黑
 ````
 
+
+
+<!-- images:banana-crisp-photo-portrait -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-crisp-photo-portrait/100f4a610c.jpg" alt="极致清晰摄影感人像 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-crisp-photo-portrait/bde401855f.jpg" alt="极致清晰摄影感人像 示例图 2" width="260">
+</p>
+
 </details>
 
 <a id="banana-cold-street-surveillance"></a>
@@ -239,6 +272,16 @@
 
 六、监控与界面元素
 ````
+
+
+
+<!-- images:banana-cold-street-surveillance -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-cold-street-surveillance/f2bee037be.jpg" alt="冷感街头监控拼贴 示例图 1" width="260">
+</p>
 
 </details>
 
@@ -281,6 +324,16 @@
 – 在不同图像之间要变化这些部位，不要总是同一个地方靠近镜头
 ````
 
+
+
+<!-- images:banana-fisheye-multipose -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-fisheye-multipose/619cb81231.jpg" alt="鱼眼镜头多姿势重构 示例图 1" width="260">
+</p>
+
 </details>
 
 <a id="banana-handheld-selfie"></a>
@@ -314,6 +367,20 @@
 2 画面质感：整体氛围真实平静，毫无修饰感，呈现日常快照风格
 ````
 
+
+
+<!-- images:banana-handheld-selfie -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-handheld-selfie/1890c2e0bf.jpg" alt="手持自拍人像 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-handheld-selfie/678a6c6e37.jpg" alt="手持自拍人像 示例图 2" width="260">
+  <img src="../assets/images/banana/banana-handheld-selfie/82be82d006.jpg" alt="手持自拍人像 示例图 3" width="260">
+  <img src="../assets/images/banana/banana-handheld-selfie/97c3933f57.jpg" alt="手持自拍人像 示例图 4" width="260">
+  <img src="../assets/images/banana/banana-handheld-selfie/a75c5a2b72.jpg" alt="手持自拍人像 示例图 5" width="260">
+</p>
+
 </details>
 
 <a id="banana-photo-restoration-json"></a>
@@ -326,6 +393,16 @@
 ````text
 { "task": "portrait_restoration", "language": "zh-CN", "prompt": { "subject": { "type": " human_portrait", "identity_fidelity": "match_uploaded_face_100_percent", "no_facial_modification": true, "express": "natural", "eye_detail": "sharp_clear", "skin_texture": "ultra_realistic", "hair_detail": "natural_individual_strands", "fabric_detail": "rich_high_Frequency_detail" }, "lighting": { "exposure": "bright_clear", "style": “soft_studio_light”，“brightness_balance”：“均匀”，“specular_highlights”： "自然脸部和眼部效果", "阴影过渡": "平滑渐变" }, "图像质量": { "分辨率": "8K", "清晰度": "高", "噪点": "低噪点", "伪影": "无", "过度平滑": "无" }, "光学系统": { "相机类型": "全画幅单反", "镜头": "85mm", "光圈": "f/1.8", "景深": "柔和浅景深", "散景": "平滑自然" }, "背景": { "风格": "简洁优雅", "无干扰": "真实", "色调": "中性" }, "色彩分级": { "风格": "电影感", "饱和度": "丰富自然", "白平衡": "准确", "肤色": "自然还原主体" }, "style_constraints": { "no_cartoon": true, "no_beauty_filter": true, "no_plastic_skin": true, "no_face_reshaping": true, "no_ai_face_swap": true } }, "negative_prompt": [ "cartoon", "anime", "cgi", "painterly", "plastic skin", "over-smoothing", "over-sharpening halos", "heavy skin retouching", "face reshaping", "identity drift", "face swap", "beauty filter", "uncanny", "wasded out", "color cast", "bollhighs,"cached shadows", "banding", "jpeg artifacts", "extra fingers", "deformed eyes", "asymmetrical face", "warped features" ], "parameters": { "fidelity_priority": "identity", "detail_priority": "eyes_skin_hair_fabric", "realism_strength": 0.95, "sharpening": "micro_contrast_only", "skin_retention":"保留毛孔和微纹理", "推荐降噪": "低至中" } }
 ````
+
+
+
+<!-- images:banana-photo-restoration-json -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-photo-restoration-json/a7c3e66426.jpg" alt="老照片高保真修复（JSON） 示例图 1" width="260">
+</p>
 
 </details>
 
@@ -343,6 +420,16 @@
 [色彩] 电影级色彩校正，柯达胶片质感，色彩还原准确自然，饱和度适中。
 [负面排斥] 无卡通滤镜，无 AI 绘画感，无塑料质感皮肤，无面部变形，无模糊噪点。
 ````
+
+
+
+<!-- images:banana-photo-restoration-zh -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-photo-restoration-zh/bb896ab69d.jpg" alt="老照片高保真修复（中文版） 示例图 1" width="260">
+</p>
 
 </details>
 
@@ -378,6 +465,19 @@
 3 滤镜效果：雾状滤镜，审美取向
 ````
 
+
+
+<!-- images:banana-korean-makeup-portrait -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-korean-makeup-portrait/5f60355138.jpg" alt="韩系氛围感妆容人像 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-korean-makeup-portrait/6f223f7d60.jpg" alt="韩系氛围感妆容人像 示例图 2" width="260">
+  <img src="../assets/images/banana/banana-korean-makeup-portrait/7f88dc297f.jpg" alt="韩系氛围感妆容人像 示例图 3" width="260">
+  <img src="../assets/images/banana/banana-korean-makeup-portrait/f7ac50256e.jpg" alt="韩系氛围感妆容人像 示例图 4" width="260">
+</p>
+
 </details>
 
 <a id="banana-waterside-portrait"></a>
@@ -390,6 +490,18 @@
 背景环境为临水的户外区域，可见灰色石质建筑、带黄色条纹的台阶、金属栏杆、红色救生圈；远处是水面、山脉，天空多云，阳光照在水面上，反射出波光粼粼，自然光线营造出清冷的户外氛围，整个画面的色调压暗，且加入黄昏暖色调，画面比例3:4
 ````
 
+
+
+<!-- images:banana-waterside-portrait -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-waterside-portrait/386998f9f9.jpg" alt="清冷临水氛围人像 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-waterside-portrait/da56a49e3d.png" alt="清冷临水氛围人像 示例图 2" width="260">
+  <img src="../assets/images/banana/banana-waterside-portrait/ea2848f96f.jpg" alt="清冷临水氛围人像 示例图 3" width="260">
+</p>
+
 </details>
 
 <a id="banana-original-plush-toy"></a>
@@ -400,6 +512,16 @@
 ````text
 A soft, high-quality plush toy of an original mischievous cartoon child character, with an oversized head, small body, and stubby limbs. Made of fuzzy fabric with visible stitching and embroidered facial features. The plush is shown sitting or standing against a neutral background. The expression is cute and expressive, with original clothing and accessories that do not copy an existing character. Soft, even lighting, realistic collectible plush texture, centered full-body view, 1080×1080.
 ````
+
+
+
+<!-- images:banana-original-plush-toy -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-original-plush-toy/1b20c2dd79.jpg" alt="原创卡通毛绒玩偶 示例图 1" width="260">
+</p>
 
 </details>
 
@@ -441,6 +563,19 @@ A soft, high-quality plush toy of an original mischievous cartoon child characte
 2 干净程度：真实日常但不喧宾夺主
 ````
 
+
+
+<!-- images:banana-home-closeup -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-home-closeup/a757854b19.jpg" alt="居家近景人像 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-home-closeup/c4d94e444a.png" alt="居家近景人像 示例图 2" width="260">
+  <img src="../assets/images/banana/banana-home-closeup/f546b02c30.png" alt="居家近景人像 示例图 3" width="260">
+  <img src="../assets/images/banana/banana-home-closeup/fc3ebcfcdd.jpg" alt="居家近景人像 示例图 4" width="260">
+</p>
+
 </details>
 
 <a id="banana-street-lookback-light"></a>
@@ -477,6 +612,16 @@ A soft, high-quality plush toy of an original mischievous cartoon child characte
 场景类型： 繁华的商业街、红绿灯路口或干净的浅色墙面。
 环境细节： 背景中有模糊的路人、店铺招牌、蓝天。
 ````
+
+
+
+<!-- images:banana-street-lookback-light -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-street-lookback-light/f16602e398.png" alt="街头回眸人像（浅色造型） 示例图 1" width="260">
+</p>
 
 </details>
 
@@ -515,6 +660,17 @@ A soft, high-quality plush toy of an original mischievous cartoon child characte
 环境细节： 背景中有模糊的路人、店铺招牌、蓝天。
 ````
 
+
+
+<!-- images:banana-street-lookback-black-white -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-street-lookback-black-white/0f06d22964.png" alt="街头回眸人像（黑白造型） 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-street-lookback-black-white/1ada2b446d.png" alt="街头回眸人像（黑白造型） 示例图 2" width="260">
+</p>
+
 </details>
 
 <a id="banana-glass-booth-editorial"></a>
@@ -532,6 +688,17 @@ A soft, high-quality plush toy of an original mischievous cartoon child characte
 4). Lighting and Shot: Soft, natural daylight streaming in from the left, creating warm highlights on the women's skin and hair and casting defined shadows on the floor. The lighting is bright but diffused, giving a realistic, slightly cinematic look. The shot is a full-body medium shot, capturing both subjects clearly from head to toe, with a shallow depth of field blurring the background outside the glass.
 ````
 
+
+
+<!-- images:banana-glass-booth-editorial -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-glass-booth-editorial/b01e90fb02.jpg" alt="双人玻璃岗亭时尚写真 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-glass-booth-editorial/b92402b2e6.png" alt="双人玻璃岗亭时尚写真 示例图 2" width="260">
+</p>
+
 </details>
 
 <a id="banana-35mm-bedroom-selfie"></a>
@@ -542,6 +709,19 @@ A soft, high-quality plush toy of an original mischievous cartoon child characte
 ````text
 A raw 35mm film photograph with extremely heavy, coarse film grain and analog texture. Strong soft diffusion halation glow adding a dreamy quality. Daytime in a bright, sunlit bedroom. An adult East Asian woman with natural platinum blonde hair, adopting a pure, innocent Japanese-style pose: sitting cross-legged on the rumpled bed, wearing an oversized cream knit sweater, hugging her knees and tilting her head with a shy, gentle smile looking into the mirror selfie camera. Soft, abundant natural daylight streaming through a window, creating an airy, hazy atmosphere with slightly overexposed highlights. Minimal natural makeup, clear radiant skin. Serene, cozy atmosphere, candid, film artifacts.
 ````
+
+
+
+<!-- images:banana-35mm-bedroom-selfie -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-35mm-bedroom-selfie/30f364b8a2.jpg" alt="35mm 胶片卧室镜面自拍 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-35mm-bedroom-selfie/3ed0020228.jpg" alt="35mm 胶片卧室镜面自拍 示例图 2" width="260">
+  <img src="../assets/images/banana/banana-35mm-bedroom-selfie/59f0c45f2c.jpg" alt="35mm 胶片卧室镜面自拍 示例图 3" width="260">
+  <img src="../assets/images/banana/banana-35mm-bedroom-selfie/d9a98322d8.jpg" alt="35mm 胶片卧室镜面自拍 示例图 4" width="260">
+</p>
 
 </details>
 
@@ -588,8 +768,111 @@ A raw 35mm film photograph with extremely heavy, coarse film grain and analog te
 4 全局一致：统一色调、镜头轻微畸变、暗角与空气透视，让整张图像呈现同一台相机的成像特征
 ````
 
+
+
+<!-- images:banana-scene-person-blending -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-scene-person-blending/054ce2f7d4.png" alt="场景与人物真实融合 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-scene-person-blending/a8ffb33d72.jpg" alt="场景与人物真实融合 示例图 2" width="260">
+</p>
+
 </details>
 
+
+<a id="banana-vintage-photo-recreation"></a>
+
+<details>
+<summary><strong>怀旧照片分析与重现</strong></summary>
+
+````text
+你是一名怀旧照片分析与视觉重现专家。请分析我上传且有权使用的参考照片，并输出结构化结果：
+
+1. 图像质量：照片类型、扫描质感、颗粒、压缩、估算焦段。
+2. 全局环境：场景、时间、天气、光源方向、色温和主辅色。
+3. 构图：机位、取景、景深、主体与道具位置。
+4. 时代质感：胶片颗粒、褪色、曝光、服装、建筑和陈设。
+5. 重现 Prompt：在不复制商标和个人身份的前提下，生成一段可用于重现同类怀旧氛围的完整提示词。
+
+如果画面包含未成年人，只能进行健康、非性化、符合日常生活语境的描述。
+````
+
+</details>
+
+<a id="banana-miniature-style"></a>
+
+<details>
+<summary><strong>微缩世界风格</strong></summary>
+
+````text
+将上传的主体转化为微缩世界中的巨型建筑或核心装置，让渺小人物与之互动；加入梯子、走道、施工平台和明显的比例对比，使用柔和氛围薄雾、精细材质与高级商业摄影光线，形成有趣但不廉价的故事画面。保持主体的核心外观、颜色和识别特征。
+````
+
+
+
+<!-- images:banana-miniature-style -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-miniature-style/1b74ee9646.png" alt="微缩世界风格 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-miniature-style/be70b060ee.jpg" alt="微缩世界风格 示例图 2" width="260">
+</p>
+
+</details>
+
+<a id="banana-original-3d-animation-style"></a>
+
+<details>
+<summary><strong>原创 3D 家庭动画风</strong></summary>
+
+````text
+Ultra-high-quality original 3D stylized adult character series with a warm, family-friendly animation aesthetic. Smooth stylized skin, soft rounded facial features, expressive eyes, subtle blush, cozy modern fashion, and fully original character design.
+
+Create multiple outfits and moods: pastel fluffy jacket with joggers and sneakers; bright cardigan with playful patterned pants; cozy oversized hoodie; elegant cropped jacket and skirt. Use varied adult hairstyles, soft fabric textures, vibrant solid-color studio backgrounds, global illumination, subsurface scattering, soft shadows, clean composition, full-body and medium shots, cinematic depth of field, and an ultra-smooth high-detail render. Do not copy an existing studio character or recognizable franchise design.
+````
+
+
+
+<!-- images:banana-original-3d-animation-style -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-original-3d-animation-style/4a38b6480f.png" alt="原创 3D 家庭动画风 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-original-3d-animation-style/71e34b303d.png" alt="原创 3D 家庭动画风 示例图 2" width="260">
+  <img src="../assets/images/banana/banana-original-3d-animation-style/e4d1bca3c3.png" alt="原创 3D 家庭动画风 示例图 3" width="260">
+</p>
+
+</details>
+
+<a id="banana-kpop-photo-series"></a>
+
+<details>
+<summary><strong>韩系女团风四宫格写真</strong></summary>
+
+````text
+画幅为 4:5 竖版，采用 2×2 四宫格无边框排版。人物必须明确为成年女性，并以上传且已获授权的参考图作为身份来源。
+
+人物气质清冷甜美、安静克制；黑色长直发、通透底妆、粉雾腮红、水润唇妆。服装采用黑色宽松西装、白色缎面内搭与半透明纱质蝴蝶结。四格分别呈现侧身回眸、单手托脸、身体微前倾抬眼、手指靠近嘴唇的克制姿态。
+
+使用正面大柔光、极浅阴影、冷白背景和奶油柔雾质感；保持四格人物身份、发型、妆容和服装完全一致。
+````
+
+
+
+<!-- images:banana-kpop-photo-series -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-kpop-photo-series/1a74f95329.png" alt="韩系女团风四宫格写真 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-kpop-photo-series/704ba909ca.png" alt="韩系女团风四宫格写真 示例图 2" width="260">
+</p>
+
+</details>
 ---
 
 [返回 Prompt 目录](README.md) · [返回项目首页](../README.md)

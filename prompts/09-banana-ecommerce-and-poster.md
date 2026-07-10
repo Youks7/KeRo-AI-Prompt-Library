@@ -107,6 +107,16 @@ LOGO生成提示词（中英双语，基于识别的品牌设计风格）
 海报10 - 使用指南/注意事项（Usage Guide，基于产品类型）
 ````
 
+
+
+<!-- images:banana-ecommerce-10-screen-kv -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-ecommerce-10-screen-kv/d88d945955.png" alt="10 屏产品电商 KV 系统 示例图 1" width="260">
+</p>
+
 </details>
 
 <a id="banana-ecommerce-launch-config"></a>
@@ -404,6 +414,16 @@ Bottom Right: Small text "กันยูวี 400 / UV400 PROTECTION".
 －用户确认后，输出最终提示词A(纯文本格式，可直接复制到即梦AI)。
 ````
 
+
+
+<!-- images:banana-commercial-poster-generator -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-commercial-poster-generator/cbc367a24d.png" alt="商业海报 Prompt 生成器 示例图 1" width="260">
+</p>
+
 </details>
 
 <a id="banana-workplace-stickers"></a>
@@ -423,6 +443,17 @@ each with cute text label in Chinese,
 white outline, die-cut, white background,
 high quality, 8k --ar 3:4
 ````
+
+
+
+<!-- images:banana-workplace-stickers -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-workplace-stickers/c44e93973a.png" alt="职场主题表情贴纸 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-workplace-stickers/f83ea1785e.png" alt="职场主题表情贴纸 示例图 2" width="260">
+</p>
 
 </details>
 
@@ -453,6 +484,17 @@ high quality, 8k --ar 3:4
 色彩搭配:主色为白色手绘线条，点缀色为柔和黄色、粉色、浅蓝色高光，强调色为黄色/粉色(用于部分文字)。整体氛围:轻松、温馨、欢庆，符合小红书/Instagram风格生日帖子美学，且必须是真实手写涂鸦风格，非电脑字体。
 ````
 
+
+
+<!-- images:banana-birthday-doodle-original -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-birthday-doodle-original/126cb68b55.png" alt="生日涂鸦纪念图（初始版） 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-birthday-doodle-original/e5325032d0.png" alt="生日涂鸦纪念图（初始版） 示例图 2" width="260">
+</p>
+
 </details>
 
 <a id="banana-birthday-doodle-v1"></a>
@@ -481,6 +523,16 @@ high quality, 8k --ar 3:4
 黑暗风格, 恐怖,
 真实的物体(指涂鸦变成了真实的照片物体), 3D渲染
 ````
+
+
+
+<!-- images:banana-birthday-doodle-v1 -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-birthday-doodle-v1/49b9ba6eca.png" alt="生日涂鸦纪念图（迭代 1） 示例图 1" width="260">
+</p>
 
 </details>
 
@@ -526,8 +578,95 @@ high quality, 8k --ar 3:4
 恐怖, 黑暗, 真实物体(指涂鸦变成了真实的照片物体而不是画)
 ````
 
+
+
+<!-- images:banana-birthday-doodle-v2 -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-birthday-doodle-v2/afb4073560.png" alt="生日涂鸦纪念图（迭代 2） 示例图 1" width="260">
+  <img src="../assets/images/banana/banana-birthday-doodle-v2/c76141b8f9.png" alt="生日涂鸦纪念图（迭代 2） 示例图 2" width="260">
+</p>
+
 </details>
 
+
+<a id="banana-birthday-doodle-v3"></a>
+
+<details>
+<summary><strong>生日涂鸦纪念图（迭代 3）</strong></summary>
+
+````text
+Best quality, reference-image-based layout. Center an adult subject holding a birthday cake, keeping the face completely unobstructed. Surround the subject with dense hand-drawn doodles, marker texture, glowing chalk effects, stars, hearts, arrows and cakes. Use white, pastel pink, cyan and yellow.
+
+Top: large curved graffiti headline “{顶部大标题}”.
+Left: dense handwritten message with highlighted keywords “{关键词1}”“{关键词2}”.
+Right: loose handwritten wishes with varied sizes and highlighted words “{关键词3}”“{关键词4}”.
+Bottom: oversized overlapping graffiti letters “Happy Birthday, {姓名}!”.
+
+Overall mood: warm, celebratory, intentionally busy social-media poster.
+Negative: doodles on face, text over eyes, standard computer fonts, neat vector typography, dark mood, empty composition, low quality, blur.
+````
+
+</details>
+
+<a id="banana-3x3-product-storyboard"></a>
+
+<details>
+<summary><strong>3×3 高端影棚产品故事板</strong></summary>
+
+````text
+为上传的真实产品生成一张 4:5 画布上的 3×3 九宫格高端影棚故事板。九格必须保持同一个产品、包装、品牌、材质、颜色和比例，不得改款、改字或改变 Logo。
+
+1. 正面 Hero Shot。
+2. 表面材质与印刷细节。
+3. 与品牌配色一致的环境陈列。
+4. 手部演示正确使用方式。
+5. 侧面结构与轮廓。
+6. 俯拍平铺构图。
+7. 核心材质微距。
+8. 包装结构与配件组合。
+9. 收束性的最终品牌主视觉。
+
+整体风格：高端设计师 Mockup、编辑感、克制布景、统一色彩分级、真实影棚光线。无法从参考图确认的信息不得补造。
+````
+
+</details>
+
+<a id="banana-style-adaptation"></a>
+
+<details>
+<summary><strong>产品视觉风格自适应</strong></summary>
+
+````text
+分析图 2 的抽象视觉要素，包括色调、光线、构图、材质、空间层次和排版逻辑；为图 1 的产品生成一段原创且适配产品特性的视觉场景 Prompt，不要直接生成图片。
+
+最终 Prompt 必须包含：严格保持图 1 产品的外观、颜色、形状、材质、比例、品牌与 Logo 不变，以产品参考图为唯一事实来源；不得把图 2 中受保护的角色、商标、水印或独特作品元素复制到新画面。
+````
+
+</details>
+
+<a id="banana-product-retouch"></a>
+
+<details>
+<summary><strong>产品形态矫正与精修</strong></summary>
+
+````text
+请为上传的产品编写“形态摆正矫正 + 商业精修强化”Prompt，不要直接生成图片。将歪斜产品恢复为符合真实结构的正向形态，修复灰尘、划痕和非设计性瑕疵，强化材质、边缘、光影与体积感；严格保留产品原有颜色、比例、结构、文字、品牌、Logo 和设计细节，不得改变款式。
+````
+
+
+
+<!-- images:banana-product-retouch -->
+
+### 示例图片
+
+<p align="center">
+  <img src="../assets/images/banana/banana-product-retouch/61d1b7037c.png" alt="产品形态矫正与精修 示例图 1" width="260">
+</p>
+
+</details>
 ---
 
 [返回 Prompt 目录](README.md) · [返回项目首页](../README.md)
