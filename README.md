@@ -13,7 +13,7 @@
 <p align="center">
   <a href="prompts/README.md">浏览全部 Prompt</a> ·
   <a href="../../archive/refs/heads/main.zip">下载完整仓库</a> ·
-  <a href="https://x.com/Isonlyonenice"> 作者：@Isonlyonenice</a>
+  <a href="https://x.com/Isonlyonenice"> 作者：秋水Kero</a>
 </p>
 
 ---
