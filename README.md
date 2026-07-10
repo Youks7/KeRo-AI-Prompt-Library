@@ -89,6 +89,6 @@
 
 ## 关于作者
 
-**Kero**，AI 电商、短视频、图片与工作流实践者。
+**秋水Kero**，AI 电商、短视频、图片与工作流实践者。
 
 X（推荐）：[@Isonlyonenice](https://x.com/Isonlyonenice)
