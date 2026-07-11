@@ -39,7 +39,7 @@ The GitHub repository remains the source of truth, while the website becomes the
 4. Featured prompts
 5. Example workflows
 6. GitHub link
-7. Use this template call-to-action
+7. GitHub repository link
 
 ## Prompt Card Fields
 

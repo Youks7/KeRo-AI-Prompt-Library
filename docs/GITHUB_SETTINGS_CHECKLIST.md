@@ -35,10 +35,6 @@ Recommended topics:
 - automation
 - chinese-prompts
 
-## Template Repository
-
-Keep `Template repository` enabled if the goal is to let users create their own prompt library from this project.
-
 ## Social Preview
 
 Add a clean repository preview image when available.

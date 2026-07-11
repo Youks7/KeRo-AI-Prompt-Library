@@ -14,8 +14,7 @@
   <a href="prompts/README.md">完整 Prompt 目录</a> ·
   <a href="docs/PROMPT_TEMPLATE.md">Prompt 标准模板</a> ·
   <a href="docs/STANDARDIZED_PROMPTS.md">标准化示例</a> ·
-  <a href="examples/ecommerce-product-copy.md">使用示例</a> ·
-  <a href="https://github.com/Youks7/KeRo-AI-Prompt-Library/generate">Use this template</a>
+  <a href="examples/ecommerce-product-copy.md">使用示例</a>
 </p>
 
 ---
@@ -28,7 +27,7 @@
 - **88 个实用 Prompt**：覆盖从商品文案、TikTok 脚本、AI 生图、视频分镜到电商详情页的常见任务。
 - **11 个进阶 Prompt 包**：适合更复杂的电商视觉、视频复刻、Seedance、MJ 摄影、市场日报等工作流。
 - **示例图和示例文件**：部分 Prompt 附带正文示例图，`examples/` 里也提供了可读的使用样例。
-- **标准模板和贡献规范**：方便你基于这个仓库继续扩展自己的 Prompt 库。
+- **标准模板和贡献规范**：方便后续继续补充、整理和标准化 Prompt。
 
 适合你使用这个仓库的情况：
 
@@ -38,7 +37,7 @@
 - 你做 AI 视频，需要图生视频 Prompt、Seedance 场景配置、故事板。
 - 你做中泰本地化，需要翻译、润色、双语时间轴、泰语表达优化。
 - 你想学习 Prompt 工程，需要看完整结构化 Prompt 是怎么写的。
-- 你想用这个仓库作为模板，创建自己的行业 Prompt 库。
+- 你想学习 Prompt 工程，需要看完整结构化 Prompt 是怎么写的。
 
 ## 先按你的需求找 Prompt
 
@@ -302,11 +301,9 @@
 - [标准化 Prompt 样板](docs/STANDARDIZED_PROMPTS.md)
 - [贡献指南](CONTRIBUTING.md)
 
-## 用这个仓库创建自己的 Prompt 库
+## 仓库结构说明
 
-你可以直接点击 [Use this template](https://github.com/Youks7/KeRo-AI-Prompt-Library/generate)，基于本仓库创建自己的 Prompt 库。
-
-建议保留这些结构：
+这个仓库按“Prompt 分类、复杂工作流、示例、文档规范”来组织，方便查找和维护。
 
 ```text
 prompts/          按主题分类放 Prompt
@@ -317,7 +314,7 @@ docs/             放模板、规范、网站规划
 website/          放第一版静态网站
 ```
 
-新增 Prompt 时建议遵循：
+新增或整理 Prompt 时建议遵循：
 
 - 用清晰标题说明用途。
 - 写明适合谁使用。

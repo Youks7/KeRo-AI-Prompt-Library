@@ -14,7 +14,7 @@
 
 适合跨境电商运营、内容创作者、独立开发者和 AI 工具使用者。
 
-如果你正在用 ChatGPT、Claude、Gemini、Midjourney、Seedance、Runway 等工具做内容生产，可以直接复制里面的 Prompt 使用，也可以点击 Use this template 创建自己的 Prompt 库。
+如果你正在用 ChatGPT、Claude、Gemini、Midjourney、Seedance、Runway 等工具做内容生产，可以直接复制里面的 Prompt 使用，并根据自己的产品、受众、平台和语言进行调整。
 
 GitHub:
 https://github.com/Youks7/KeRo-AI-Prompt-Library
