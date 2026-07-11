@@ -14,6 +14,7 @@
   <a href="prompts/README.md">完整 Prompt 目录</a> ·
   <a href="docs/PROMPT_TEMPLATE.md">Prompt 标准模板</a> ·
   <a href="docs/STANDARDIZED_PROMPTS.md">标准化示例</a> ·
+  <a href="docs/IMAGE_REFERENCES.md">图片引用清单</a> ·
   <a href="examples/ecommerce-product-copy.md">使用示例</a>
 </p>
 
@@ -24,8 +25,8 @@
 当前仓库包含：
 
 - **9 个主题分类**：市场自动化、翻译润色、文案广告、短视频 TikTok、AI 生图视频、电商视觉、条漫角色、写真修复、电商海报。
-- **88 个实用 Prompt**：覆盖从商品文案、TikTok 脚本、AI 生图、视频分镜到电商详情页的常见任务。
-- **11 个进阶 Prompt 包**：适合更复杂的电商视觉、视频复刻、Seedance、MJ 摄影、市场日报等工作流。
+- **87 个实用 Prompt**：覆盖从商品文案、TikTok 脚本、AI 生图、视频分镜到电商详情页的常见任务。
+- **9 个当前进阶 Prompt 包和 2 个历史版本**：适合更复杂的电商视觉、视频复刻、Seedance、MJ 摄影、市场日报等工作流。
 - **示例图和示例文件**：部分 Prompt 附带正文示例图，`examples/` 里也提供了可读的使用样例。
 - **标准模板和贡献规范**：方便后续继续补充、整理和标准化 Prompt。
 
@@ -70,7 +71,7 @@
 | 做产品形态矫正和精修 | [产品形态矫正与精修](prompts/09-banana-ecommerce-and-poster.md#banana-product-retouch) | 产品摆正、商业精修、保持结构不变 |
 | 做翻译和本地化 | [中文转泰语本地化](prompts/02-translation-and-polishing.md#zh-to-th-localization) | 中泰翻译、泰语本地表达、口语化 |
 | 做音视频双语翻译 | [视频 / 音频双语翻译](prompts/02-translation-and-polishing.md#audio-video-bilingual-translation) | 音视频翻译、双语字幕、时间轴 |
-| 做美股日报自动化 | [美股收盘日报自动化](prompts/01-market-automation.md#us-market-daily-report) | 市场日报、事实核验、自动化报告 |
+| 做美股日报自动化 | [美股日报自动化指令](prompt-packs/us-market-automation.md) | 市场日报、事实核验、定时生成 |
 
 ## 最快使用方法
 
@@ -102,140 +103,23 @@
 - 视频脚本方向：[资深短视频编导](prompts/04-short-video-and-tiktok.md#short-video-director)
 - 海报方向：[偏光墨镜 10 屏中文海报](prompts/09-banana-ecommerce-and-poster.md#banana-polarized-sunglasses-zh)
 
-## Prompt 文件地图
+## 浏览全部 Prompt
 
-下面是仓库里的主要 Prompt 分类。你可以从这里进入完整分类文件，也可以直接点具体 Prompt。
+完整的逐项目录统一维护在 [prompts/README.md](prompts/README.md)，这里仅保留分类入口，避免两份目录不同步。
 
-### 01 · 市场分析与自动化
+| 分类 | 入口 | 主要内容 |
+|---|---|---|
+| 01 · 市场分析与自动化 | [打开](prompts/01-market-automation.md) | 美股日报完整版、自动化版本和示例图 |
+| 02 · 翻译、音频与文本润色 | [打开](prompts/02-translation-and-polishing.md) | 双语时间轴、中泰本地化、文本润色 |
+| 03 · 文案、电商与广告 | [打开](prompts/03-copywriting.md) | 商品文案、广告、标题、Slogan |
+| 04 · 短视频与 TikTok 运营 | [打开](prompts/04-short-video-and-tiktok.md) | 脚本、审核、痛点分析、口播提取 |
+| 05 · AI 生图、视频与分镜 | [打开](prompts/05-image-and-video-generation.md) | 生图、图生视频、首尾帧、故事板 |
+| 06 · 电商视觉设计 | [打开](prompts/06-ecommerce-visual-design.md) | 主图、详情页、视觉策略 |
+| 07 · 条漫、角色与写真 | [打开](prompts/07-storyboard-and-character.md) | 条漫导演、角色设定卡 |
+| 08 · Banana 人像、写真与修复 | [打开](prompts/08-banana-portrait-and-restoration.md) | 人像、写真、老照片修复、场景融合 |
+| 09 · Banana 电商、海报与社交视觉 | [打开](prompts/09-banana-ecommerce-and-poster.md) | 产品 KV、海报、贴纸、产品精修 |
 
-- [美股收盘日报自动化](prompts/01-market-automation.md#us-market-daily-report)
-
-适合：金融日报、市场信息整理、需要核验来源的自动化报告。
-
-### 02 · 翻译、音频与文本润色
-
-- [提取音频与双语时间轴](prompts/02-translation-and-polishing.md#extract-audio-bilingual-timeline)
-- [视频 / 音频双语翻译](prompts/02-translation-and-polishing.md#audio-video-bilingual-translation)
-- [中文转泰语本地化](prompts/02-translation-and-polishing.md#zh-to-th-localization)
-- [泰语本地化二次迭代](prompts/02-translation-and-polishing.md#thai-localization-iteration)
-- [文本润色：优雅版与口语版](prompts/02-translation-and-polishing.md#text-polishing)
-
-适合：字幕、口播稿、泰语本地化、双语时间轴、中文内容润色。
-
-### 03 · 文案、电商与广告
-
-- [抖音文案角色设定](prompts/03-copywriting.md#douyin-copywriting-role)
-- [泰国 TikTok 墨镜文案](prompts/03-copywriting.md#thai-tiktok-sunglasses-copy)
-- [通用高质量 Prompt 母模板](prompts/03-copywriting.md#universal-prompt-template)
-- [爆款标题](prompts/03-copywriting.md#viral-headlines)
-- [小红书种草笔记](prompts/03-copywriting.md#xiaohongshu-post)
-- [朋友圈 / 社群短文案](prompts/03-copywriting.md#social-copy)
-- [电商详情页文案](prompts/03-copywriting.md#ecommerce-detail-copy)
-- [信息流广告 A/B 变体](prompts/03-copywriting.md#feed-ad-ab)
-- [15 / 30 / 60 秒短视频脚本](prompts/03-copywriting.md#short-video-15-30-60)
-- [品牌 Slogan / 一句话定位](prompts/03-copywriting.md#brand-slogan)
-- [二次迭代 Prompt](prompts/03-copywriting.md#prompt-iteration)
-- [按需求生成 Prompt](prompts/03-copywriting.md#prompt-generator)
-
-适合：商品文案、广告投放、标题、Slogan、种草笔记、私域文案和 Prompt 二次优化。
-
-### 04 · 短视频与 TikTok 运营
-
-- [短视频脚本创作](prompts/04-short-video-and-tiktok.md#short-video-script)
-- [资深短视频编导](prompts/04-short-video-and-tiktok.md#short-video-director)
-- [千川高转化短视频编剧](prompts/04-short-video-and-tiktok.md#qianchuan-video-writer)
-- [视频转中文知识笔记](prompts/04-short-video-and-tiktok.md#video-to-chinese-notes)
-- [TikTok 运营文案审核](prompts/04-short-video-and-tiktok.md#tiktok-copy-review)
-- [TikTok 文案审核二次迭代](prompts/04-short-video-and-tiktok.md#tiktok-copy-review-iteration)
-- [泰国 TikTok 痛点深挖](prompts/04-short-video-and-tiktok.md#thai-tiktok-pain-points)
-- [视频口播文案提取](prompts/04-short-video-and-tiktok.md#spoken-copy-extraction)
-- [AI 动漫短剧编剧](prompts/04-short-video-and-tiktok.md#ai-animation-writer)
-
-适合：短视频选题、脚本、镜头、BGM、TikTok 审核、痛点洞察和视频内容提取。
-
-### 05 · AI 生图、视频与分镜
-
-- [图片反向解析 Prompt](prompts/05-image-and-video-generation.md#image-prompt-reverse)
-- [图生视频 Prompt 助手](prompts/05-image-and-video-generation.md#image-to-video)
-- [视频首尾帧图片 Prompt 助手](prompts/05-image-and-video-generation.md#first-last-frame)
-- [Seedance 2.0 场景配置示例](prompts/05-image-and-video-generation.md#seedance-scene-config)
-- [电影感绘图 Prompt 改写](prompts/05-image-and-video-generation.md#cinematic-image-prompt)
-- [NanoBananaPro 5×5 分镜](prompts/05-image-and-video-generation.md#nanobanana-5x5-storyboard)
-- [4×4 产品广告分镜](prompts/05-image-and-video-generation.md#product-ad-4x4-storyboard)
-- [图像风格要素分析与原创迁移](prompts/05-image-and-video-generation.md#visual-style-analysis)
-- [25 宫格叙事分镜](prompts/05-image-and-video-generation.md#25-grid-storyboard)
-
-适合：AI 绘图、图生视频、首尾帧、电影感画面、产品广告故事板和分镜生成。
-
-### 06 · 电商视觉设计
-
-- [天猫主图详情页设计（Gemini）](prompts/06-ecommerce-visual-design.md#tmall-visual-gemini)
-- [天猫主图详情页设计（ChatGPT）](prompts/06-ecommerce-visual-design.md#tmall-visual-chatgpt)
-
-适合：天猫主图、详情页切片、视觉策略、字体排版、底图生成提示词。
-
-### 07 · 条漫、角色与写真
-
-- [两格条漫需求示例](prompts/07-storyboard-and-character.md#two-panel-example)
-- [日式儿童搞怪两格条漫导演](prompts/07-storyboard-and-character.md#two-panel-comic-director)
-- [人像角色设定卡](prompts/07-storyboard-and-character.md#character-sheet)
-
-适合：条漫分镜、角色设定、人物设定卡和视觉一致性。
-
-### 08 · Banana 人像、写真与修复
-
-- [复古女仆风成年写真](prompts/08-banana-portrait-and-restoration.md#banana-maid-portrait)
-- [圣诞兔耳造型成年写真](prompts/08-banana-portrait-and-restoration.md#banana-christmas-portrait)
-- [古风夜景人像](prompts/08-banana-portrait-and-restoration.md#banana-ancient-style-portrait)
-- [杂志拼贴近景人像](prompts/08-banana-portrait-and-restoration.md#banana-editorial-closeup)
-- [极致清晰摄影感人像](prompts/08-banana-portrait-and-restoration.md#banana-crisp-photo-portrait)
-- [冷感街头监控拼贴](prompts/08-banana-portrait-and-restoration.md#banana-cold-street-surveillance)
-- [鱼眼镜头多姿势重构](prompts/08-banana-portrait-and-restoration.md#banana-fisheye-multipose)
-- [手持自拍人像](prompts/08-banana-portrait-and-restoration.md#banana-handheld-selfie)
-- [老照片高保真修复（JSON）](prompts/08-banana-portrait-and-restoration.md#banana-photo-restoration-json)
-- [老照片高保真修复（中文版）](prompts/08-banana-portrait-and-restoration.md#banana-photo-restoration-zh)
-- [韩系氛围感妆容人像](prompts/08-banana-portrait-and-restoration.md#banana-korean-makeup-portrait)
-- [清冷临水氛围人像](prompts/08-banana-portrait-and-restoration.md#banana-waterside-portrait)
-- [原创卡通毛绒玩偶](prompts/08-banana-portrait-and-restoration.md#banana-original-plush-toy)
-- [居家近景人像](prompts/08-banana-portrait-and-restoration.md#banana-home-closeup)
-- [场景与人物真实融合](prompts/08-banana-portrait-and-restoration.md#banana-scene-person-blending)
-- [怀旧照片分析与重现](prompts/08-banana-portrait-and-restoration.md#banana-vintage-photo-recreation)
-
-适合：成人写真风格、人像风格化、老照片修复、场景融合、原创玩偶和视觉重现。
-
-### 09 · Banana 电商、海报与社交视觉
-
-- [10 屏产品电商 KV 系统](prompts/09-banana-ecommerce-and-poster.md#banana-ecommerce-10-screen-kv)
-- [工业级电商详情页启动配置](prompts/09-banana-ecommerce-and-poster.md#banana-ecommerce-launch-config)
-- [电商详情页第一阶段分析](prompts/09-banana-ecommerce-and-poster.md#banana-ecommerce-stage-one)
-- [海报 01：品牌 LOGO 生成](prompts/09-banana-ecommerce-and-poster.md#banana-poster-logo)
-- [海报 02：产品场景展示](prompts/09-banana-ecommerce-and-poster.md#banana-poster-lifestyle)
-- [海报 03：多场景拼贴](prompts/09-banana-ecommerce-and-poster.md#banana-poster-collage)
-- [偏光墨镜 10 屏中文海报](prompts/09-banana-ecommerce-and-poster.md#banana-polarized-sunglasses-zh)
-- [墨镜英泰双语海报系统](prompts/09-banana-ecommerce-and-poster.md#banana-sunglasses-en-th)
-- [商业海报 Prompt 生成器](prompts/09-banana-ecommerce-and-poster.md#banana-commercial-poster-generator)
-- [职场主题表情贴纸](prompts/09-banana-ecommerce-and-poster.md#banana-workplace-stickers)
-- [3×3 高端影棚产品故事板](prompts/09-banana-ecommerce-and-poster.md#banana-3x3-product-storyboard)
-- [产品视觉风格自适应](prompts/09-banana-ecommerce-and-poster.md#banana-style-adaptation)
-- [产品形态矫正与精修](prompts/09-banana-ecommerce-and-poster.md#banana-product-retouch)
-
-适合：电商海报、产品 KV、墨镜视觉、商业海报、贴纸、产品精修和产品故事板。
-
-## 进阶 Prompt 包
-
-这些文件适合更长、更复杂的工作流，通常不是复制一句就结束，而是按步骤执行。
-
-- [美股收盘日报完整版](prompt-packs/us-market-daily-report.md)
-- [美股日报自动化指令](prompt-packs/us-market-automation.md)
-- [高端香水广告两步式导演](prompt-packs/luxury-perfume-director.md)
-- [视频复刻拆解 v2.1](prompt-packs/video-remake-analysis-v2.1.md)
-- [Seedance 2.0 平台 / API 双模式 v4.0](prompt-packs/seedance-platform-api-v4.md)
-- [Seedance 2.0 平台版 v4.1](prompt-packs/seedance-platform-v4.1.md)
-- [双语 MJ 摄影 Prompt 导演](prompt-packs/bilingual-mj-photo-director.md)
-- [AI 杂志摄影 Prompt 导演](prompt-packs/ai-magazine-photo-director.md)
-- [工业级 AIGC 电商详情页生成系统 V3.0](prompt-packs/industrial-aigc-ecommerce-v3.md)
-- [工业级 AIGC 电商详情页 Prompt Gem V4.0](prompt-packs/industrial-aigc-ecommerce-v4.md)
-- [SKU 详情页导演 Skill Lite V1.0（历史版）](prompt-packs/sku-detail-page-director-lite-v1.md)
+进阶工作流也由完整目录统一维护：[查看当前进阶 Prompt 包](prompts/README.md#进阶-prompt-包) · [查看历史版本](prompt-packs/archive/README.md)。
 
 ## 如何正确使用这些 Prompt
 
@@ -305,12 +189,14 @@
 这个仓库按“Prompt 分类、复杂工作流、示例、文档规范”来组织，方便查找和维护。
 
 ```text
-prompts/          按主题分类放 Prompt
-prompt-packs/     放复杂长流程 Prompt 包
-examples/         放具体使用示例
-docs/             放模板、规范、网站规划
-.github/          放 issue 和 PR 模板
-website/          放第一版静态网站
+prompts/               按主题分类放 Prompt，并维护完整目录
+prompt-packs/          放当前复杂长流程 Prompt 包
+prompt-packs/archive/  放被新版替代的历史版本
+examples/              放具体使用示例
+docs/                  放模板、标准化样板和图片引用清单
+assets/                放正文示例图和仓库展示资源
+.github/               放 issue 和 PR 模板
+website/               放第一版静态网站
 ```
 
 新增或整理 Prompt 时建议遵循：

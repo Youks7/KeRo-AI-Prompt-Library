@@ -418,7 +418,7 @@ Use fewer shots for fast TikTok ads and more shots for cinematic product stories
 
 ## Workflow Automation Prompt
 
-Source: [prompts/01-market-automation.md](../prompts/01-market-automation.md#us-market-daily-report)
+Source: [prompt-packs/us-market-automation.md](../prompt-packs/us-market-automation.md)
 
 ### Use Case
 

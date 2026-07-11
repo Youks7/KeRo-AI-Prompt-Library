@@ -1,5 +1,7 @@
 # 工业级 AIGC 电商详情页生成系统 V3.0
 
+> 历史版本，仅用于兼容旧工作流。新任务推荐使用 [V4.0](../industrial-aigc-ecommerce-v4.md)。
+
 > ⚠️ 产品信息必须来自可验证资料；无法确认的内容一律标记为待核实。
 
 > 这是从 Banana Prompt 文档中整理出的完整进阶工作流。
@@ -1152,4 +1154,4 @@ AI 负责策略、分镜、背景、光影、氛围和视觉隐喻。
 
 ---
 
-[返回 Prompt 目录](../prompts/README.md) · [返回项目首页](../README.md)
+[返回 Prompt 目录](../../prompts/README.md) · [返回项目首页](../../README.md)

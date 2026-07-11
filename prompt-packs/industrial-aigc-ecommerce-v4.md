@@ -1,5 +1,7 @@
 # 工业级 AIGC 电商详情页 Prompt Gem V4.0
 
+> 当前推荐版本。需要兼容旧流程时，可查看归档的 [V3.0](archive/industrial-aigc-ecommerce-v3.md)。
+
 > ⚠️ 产品信息必须来自可验证资料；无法确认的内容一律标记为待核实。
 
 > 这是从 Banana Prompt 文档中整理出的完整进阶工作流。

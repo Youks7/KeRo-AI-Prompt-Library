@@ -1339,4 +1339,4 @@ V1.0 核心变化
 
 ---
 
-[返回 Prompt 目录](../prompts/README.md) · [返回项目首页](../README.md)
+[返回 Prompt 目录](../../prompts/README.md) · [返回项目首页](../../README.md)
