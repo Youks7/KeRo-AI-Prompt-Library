@@ -16,3 +16,5 @@ This first version does not use a backend, database, or complex framework. It ca
 - Vercel static hosting
 
 For Cloudflare Pages or GitHub Pages, set the project root to `website/` when deploying this static version.
+
+Prompt and example links intentionally point to their canonical files on GitHub, so they continue to work when this directory is deployed by itself.
