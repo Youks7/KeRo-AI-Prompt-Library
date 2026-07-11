@@ -1,116 +1,107 @@
 # KeRo AI Prompt Library
 
-A practical AI prompt and workflow library for e-commerce, TikTok content, AI image generation, AI video scripts, copywriting, localization, and automation.
+面向电商、TikTok、AI 生图、AI 视频、文案生成、本地化翻译和自动化工作流的实用 Prompt 工作流库。
 
-KeRo AI Prompt Library is designed for creators, e-commerce operators, prompt engineers, and AI workflow builders who need reusable, structured, production-ready prompts instead of random prompt collections.
+它不是简单堆放提示词，而是按照真实内容生产场景整理 Prompt，让用户可以直接复制、替换变量、快速投入使用。
 
 <p align="center">
-  <a href="README.md">English</a> ·
-  <a href="README.zh-CN.md">简体中文</a> ·
+  <a href="README.md">简体中文</a> ·
+  <a href="README_EN.md">English</a> ·
   <a href="README_ZH-TW.md">繁體中文</a>
 </p>
 
 <p align="center">
-  <a href="prompts/README.md">Browse Prompts</a> ·
-  <a href="docs/PROMPT_TEMPLATE.md">Prompt Template</a> ·
-  <a href="examples/ecommerce-product-copy.md">Examples</a> ·
-  <a href="website/">Static Website</a> ·
-  <a href="https://github.com/Youks7/KeRo-AI-Prompt-Library/generate">Use This Template</a>
+  <a href="prompts/README.md">浏览全部 Prompt</a> ·
+  <a href="docs/PROMPT_TEMPLATE.md">Prompt 标准模板</a> ·
+  <a href="examples/ecommerce-product-copy.md">示例文件</a> ·
+  <a href="website/">静态网站</a> ·
+  <a href="https://github.com/Youks7/KeRo-AI-Prompt-Library/generate">Use this template</a>
 </p>
 
 ---
 
-## Project Overview
+## 项目是什么
 
-KeRo AI Prompt Library turns scattered prompt notes into reusable AI workflows. Each prompt is organized around a real production task: role, context, input variables, constraints, output format, and iteration notes.
+KeRo AI Prompt Library 是 Kero 持续整理和实测的 AI Prompt 工作流库。它把角色、任务、输入变量、约束、输出格式和迭代方式组织成可复用模板，帮助用户从零散需求进入更稳定的内容生产流程。
 
-The current repository includes **9 prompt categories, 88 practical prompts, 11 advanced prompt packs, and 73 in-context example images** for e-commerce, TikTok content, Chinese-Thai localization, AI image generation, AI video workflows, product visuals, and automation.
+当前仓库包含 **9 个主题分类、88 个实用 Prompt、11 个进阶 Prompt 包和 73 张正文示例图**，覆盖电商、短视频、TikTok、本地化翻译、AI 生图、AI 视频、电商视觉和自动化等场景。
 
-## Who Is This For
+## 适合谁
 
-- Cross-border e-commerce operators
-- TikTok and short-video creators
-- AI image generation users
-- AI video and storyboard creators
-- Copywriters and content teams
-- Prompt engineering learners
-- Independent builders creating their own prompt libraries
+- 跨境电商运营
+- TikTok / 短视频内容创作者
+- AI 生图用户
+- AI 视频和分镜创作者
+- 文案、广告和内容生产团队
+- Prompt 工程学习者
+- 想搭建自己 Prompt 库的独立开发者
 
-## What You Can Do With It
+## 可以用它做什么
 
-- Generate product copy, ads, landing-page sections, slogans, and social posts.
-- Create TikTok scripts, short-video storyboards, hooks, and review workflows.
-- Build AI image prompts for product photos, posters, key visuals, and visual systems.
-- Draft AI video prompts, first-frame/last-frame prompts, and storyboard grids.
-- Localize content for Chinese, Thai, and bilingual workflows.
-- Use the repository as a template for your own structured prompt library.
+- 生成电商详情页、广告文案、标题、社交媒体文案和品牌 Slogan。
+- 生成 TikTok 脚本、短视频分镜、前三秒钩子和文案审核流程。
+- 生成产品图、海报、视觉系统和电商 KV 的 AI 生图提示词。
+- 生成 AI 视频、首尾帧、Seedance 和多宫格分镜工作流。
+- 处理中文、泰语、本地化改写和双语内容整理。
+- 基于本仓库模板创建自己的 Prompt 工作流库。
 
-## Prompt Categories
+## Prompt 分类
 
-| Category | Typical Use |
+| 分类 | 适用场景 |
 |---|---|
-| [E-commerce](prompts/03-copywriting.md#ecommerce-detail-copy) | Product pages, selling points, FAQ, ad copy, visual detail pages |
-| [TikTok / Short Video](prompts/04-short-video-and-tiktok.md) | Hooks, scripts, storyboards, copy review, audience pain points |
-| [AI Image Generation](prompts/05-image-and-video-generation.md) | Image prompts, product photos, cinematic rewrites, visual analysis |
-| [AI Video](prompts/05-image-and-video-generation.md#image-to-video) | Image-to-video prompts, first/last frames, Seedance workflows |
-| [Copywriting](prompts/03-copywriting.md) | Headlines, social copy, Xiaohongshu notes, slogans, A/B ads |
-| [Localization](prompts/02-translation-and-polishing.md) | Chinese-Thai localization, bilingual timelines, polishing |
-| [Workflow Automation](prompts/01-market-automation.md) | Market-report automation and repeatable research workflows |
+| [电商](prompts/03-copywriting.md#ecommerce-detail-copy) | 商品详情页、卖点、FAQ、广告文案、视觉详情页 |
+| [TikTok / 短视频](prompts/04-short-video-and-tiktok.md) | 视频脚本、分镜、钩子、文案审核、用户痛点 |
+| [AI 生图](prompts/05-image-and-video-generation.md) | 产品图、海报、电影感提示词、视觉风格分析 |
+| [AI 视频](prompts/05-image-and-video-generation.md#image-to-video) | 图生视频、首尾帧、Seedance、动态分镜 |
+| [文案生成](prompts/03-copywriting.md) | 标题、社交文案、小红书笔记、Slogan、广告 A/B 版本 |
+| [本地化翻译](prompts/02-translation-and-polishing.md) | 中泰本地化、双语时间轴、音视频翻译 |
+| [自动化工作流](prompts/01-market-automation.md) | 市场日报、资料核验、可重复研究流程 |
 
-[Open the full prompt index](prompts/README.md).
+[打开完整 Prompt 目录](prompts/README.md)。
 
-## Quick Start
+## 快速开始
 
-1. Browse the `prompts/` or `prompt-packs/` directory.
-2. Choose a prompt based on your use case.
-3. Copy the prompt.
-4. Replace the variables with your own product, audience, platform, language, and style.
-5. Use it in ChatGPT, Claude, Gemini, Midjourney, Seedance, Runway, or other AI tools.
-6. Adjust and iterate based on the output.
+1. 打开 `prompts/` 或 `prompt-packs/`。
+2. 找到最接近当前任务的 Prompt。
+3. 复制代码块。
+4. 替换 `{product_name}`、`{target_audience}`、`{platform}`、`{tone}`、`{language}` 等变量。
+5. 把真实产品资料、参考图、目标平台和风格要求一起提供给 AI。
+6. 根据输出继续迭代，不要把第一版直接当作终稿。
 
-## Use This Template
+## 如何复制使用 Prompt
 
-1. Click [Use this template](https://github.com/Youks7/KeRo-AI-Prompt-Library/generate).
-2. Rename the repository for your niche, brand, or workflow.
-3. Keep the structure in `prompts/`, `prompt-packs/`, `examples/`, and `docs/`.
-4. Use [docs/PROMPT_TEMPLATE.md](docs/PROMPT_TEMPLATE.md) as the standard format for new prompts.
-5. Replace variables such as `{product_name}`, `{target_audience}`, `{platform}`, `{tone}`, and `{language}`.
+建议先保留 Prompt 的结构，再替换变量和事实信息。涉及产品功效、材质、认证、价格、活动、平台规则时，必须以你能验证的资料为准。
 
-## Examples
+如果你要新增 Prompt，请优先参考 [docs/PROMPT_TEMPLATE.md](docs/PROMPT_TEMPLATE.md)。部分标准化示例见 [docs/STANDARDIZED_PROMPTS.md](docs/STANDARDIZED_PROMPTS.md)。
 
-- [E-commerce product copy](examples/ecommerce-product-copy.md)
-- [TikTok video script](examples/tiktok-video-script.md)
-- [AI image product photo](examples/ai-image-product-photo.md)
-- [Product poster prompt](examples/product-poster-prompt.md)
-- [Translation and localization](examples/translation-localization.md)
+## 如何基于模板创建自己的 Prompt 库
 
-Selected prompts are organized as standard samples in [docs/STANDARDIZED_PROMPTS.md](docs/STANDARDIZED_PROMPTS.md).
+1. 点击 [Use this template](https://github.com/Youks7/KeRo-AI-Prompt-Library/generate)。
+2. 改成自己的项目名称和定位。
+3. 保留 `prompts/`、`prompt-packs/`、`examples/`、`docs/` 这类结构。
+4. 用统一变量格式 `{variable_name}` 编写 Prompt。
+5. 为每个核心 Prompt 补充使用场景、示例输入、预期输出和注意事项。
 
-## Contributing
+## 如何贡献
 
-Contributions are welcome. You can help by adding prompts, improving existing prompts, adding examples, translating content, fixing formatting, or reporting outdated workflows.
+欢迎贡献新的 Prompt、改进已有 Prompt、补充示例、翻译内容、修正格式或报告过时内容。提交前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+## 使用注意事项
 
-## Roadmap
+- Prompt 是工作模板，不保证任何模型都输出相同结果。
+- 产品功效、材质、产地、认证、价格和活动信息必须以真实证据为准。
+- 金融、平台规则和模型能力会变化，执行时必须查询最新可靠来源。
+- 只上传和改编你有权使用的图片、视频、字体、商标与人物素材。
+- 公开发布前请人工检查事实、版权、隐私、安全和平台合规性。
 
-The roadmap is tracked in [ROADMAP.md](ROADMAP.md). Planned directions include a web version, search and filters, copy buttons, more English translations, and more e-commerce, TikTok, AI image, and AI video prompt packs.
+更多说明见 [NOTICE.md](NOTICE.md)。
 
-## Responsible Use
+## License 说明
 
-- Prompt output is not guaranteed to be accurate or compliant.
-- Product claims, prices, certifications, platform rules, and financial data must be verified from reliable sources.
-- Only upload or adapt images, videos, fonts, brands, and likenesses you have the right to use.
-- Review outputs for factual accuracy, copyright, privacy, safety, and platform compliance before publishing.
+除非文件中另有说明，本仓库的 Prompt、文档、示例和文字内容采用 [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE) 许可。第三方图片、商标、平台名称和工具名称仍归各自权利人所有。
 
-See [NOTICE.md](NOTICE.md) for additional usage notes.
-
-## License
-
-Unless otherwise noted, the prompts, documentation, examples, and text content in this repository are licensed under [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE). Third-party images, trademarks, platform names, and referenced tools remain the property of their respective owners.
-
-If this project helps you, consider giving it a star. It helps more people discover the project.
+如果这个项目对你有帮助，欢迎给它一个 Star。它会帮助更多人发现这个项目。
 
 ---
 
-Created by **Kero** · X: [@Isonlyonenice](https://x.com/Isonlyonenice)
+作者：**秋水 Kero** · X: [@Isonlyonenice](https://x.com/Isonlyonenice)

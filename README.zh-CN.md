@@ -5,8 +5,8 @@
 它不是简单堆放提示词，而是按照真实内容生产场景整理 Prompt，让用户可以直接复制、替换变量、快速投入使用。
 
 <p align="center">
-  <a href="README.md">English</a> ·
-  <a href="README.zh-CN.md">简体中文</a> ·
+  <a href="README.md">简体中文</a> ·
+  <a href="README_EN.md">English</a> ·
   <a href="README_ZH-TW.md">繁體中文</a>
 </p>
 
