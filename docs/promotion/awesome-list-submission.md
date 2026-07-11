@@ -1,0 +1,1 @@
+- [KeRo AI Prompt Library](https://github.com/Youks7/KeRo-AI-Prompt-Library) - A practical AI prompt library for e-commerce, TikTok content, AI image generation, AI video scripts, copywriting, localization, and workflow automation.
